@@ -1,6 +1,8 @@
 # Assembler-Emulator
 The aim of this project is to create a two pass assembler for a reduced simple Assembly instruction set, and then to write and test programs in this simple assembly language. The latter part of the project works on building an Emulator for this simple machine.
 
+***
+
 # The simple assembly language and its instruction set
 ## Assembly Language
 This assembly language is for a machine with four registers,
@@ -19,3 +21,4 @@ Label definitions consist of the label name followed by a ':', and an optional s
 ![image](https://github.com/user-attachments/assets/8c68b20c-ef67-4f77-a151-9d5351e48e3e)
 
 ***
+
