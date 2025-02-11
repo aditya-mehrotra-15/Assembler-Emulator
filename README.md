@@ -21,4 +21,33 @@ Label definitions consist of the label name followed by a ':', and an optional s
 ![image](https://github.com/user-attachments/assets/8c68b20c-ef67-4f77-a151-9d5351e48e3e)
 
 ***
+# Files Generated and Compilation+Run Instructions
+The Assembler generates 3 files:
+
+* .log file for error, warning info.
+* .lst listing file.
+* .o object file for machine code object.
+
+**The .lst and .o files only generate if no errors are found in the .log file.** The .o object file generated will be used as an input to the Emulator.
+
+## Compilation instructions
+
+To Compile Assembler code and create executable file:
+```
+g++ Assembler.cpp
+```
+To Compile Emulator code and create executable file:
+```
+g++ Emulator.cpp
+```
+To run a created executable file:
+
+(Windows)
+```
+./a.exe
+```
+(Linux)
+```
+./a.out
+```
 
