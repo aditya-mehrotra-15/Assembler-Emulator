@@ -16,6 +16,6 @@ As with most assembly languages, this is line based (one statement per line). Co
 Label definitions consist of the label name followed by a ':', and an optional statement. A valid label name is an alphanumeric string beginning with a letter . An operand is either a label or a number, which can be decimal, hex or octal.
 
 ## The Simple Instruction-Set
-![image](https://github.com/user-attachments/assets/2a7082de-ff28-48b3-afb2-787cdaf918cc)
+![image](https://github.com/user-attachments/assets/8c68b20c-ef67-4f77-a151-9d5351e48e3e)
 
 ***
